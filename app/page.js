@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <main>
@@ -8,6 +7,7 @@ export default function Home() {
         Create a feedback board in minutes to be able to prioritize what
         features users love
       </div>
+      <Link href="/dashboard">Dashboard</Link>
     </main>
   );
 }
